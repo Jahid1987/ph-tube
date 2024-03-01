@@ -71,7 +71,6 @@ const showVideos = (videos) => {
       card.classList = `card w-full bg-base-100 shadow-xl`;
       // card.addEventListener('click', showDetails(video))
       card.innerHTML = `
-      <div onclick="showDetails('${video.title}')">
         <figure class="overflow-hidden h-72">
         <img class="w-full" src="${video.thumbnail}" alt="Shoes" />
         <h6 class="absolute bottom-[40%] right-12">0 hr</h6>
@@ -99,7 +98,6 @@ const showVideos = (videos) => {
             </div>
           </div>
         </div>
-      </div>
     `;
       cardContainer.appendChild(card);
     });
