@@ -57,9 +57,9 @@ sortBtn.addEventListener("click", () => {
 });
 
 // showing videos in ui
+const errorElement = document.getElementById("error-element");
 const showVideos = (videos) => {
   cardContainer.innerHTML = "";
-  const errorElement = document.getElementById("error-element");
 
   if (!videos.length > 0) {
     errorElement.classList.remove("hidden");
