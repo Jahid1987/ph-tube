@@ -106,10 +106,6 @@ const showVideos = (videos) => {
   }
 };
 
-// show details of single video 
-function showDetails(id) {
-  console.log(id);
-}
 
 // fetching categories buttons
 fetchCategories();
